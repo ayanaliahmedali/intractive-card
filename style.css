@@ -1,0 +1,125 @@
+:root {
+    /* primary */
+
+    --clr-primary-100: hsl(249, 99%, 64%);
+    --clr-primary-200: hsl(0, 100%, 66%);
+    --clr-primary-300: hsl(278, 94%, 30%);
+
+    /* neutral */
+
+    --clr-neutral-100: hsl(0, 0%, 100%);
+    --clr-neutral-200: hsl(270, 3%, 87%);
+    --clr-neutral-300: hsl(279, 6%, 55%);
+    --clr-neutral-400: hsl(278, 68%, 11%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.card-1 {
+    background-image: url(./images/bg-card-front.png);
+    width: 87%;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 7%;
+    top: 15%;
+    height: 87%;
+    border-bottom-left-radius: 12px;
+    padding: 23px;
+    color: var(--clr-neutral-100);
+}
+
+.main-dextop {
+    width: 75%;
+}
+
+span#\33 {
+    position: absolute;
+    right: 3.5rem;
+    top: 7rem;
+    color: var(--clr-neutral-200);
+}
+
+.card-2 {
+    position: absolute;
+    top: 23em;
+    right: 431px;
+}
+
+span.\32 {
+    padding-top: 125px;
+    padding-left: 245px;
+}
+
+p.\31 {
+    padding-top: 52px;
+    position: absolute;
+    letter-spacing: 10px;
+    font-size: 21px;
+}
+
+p.header-para {
+    padding-top: 124px;
+}
+
+.all {
+    display: flex;
+}
+
+.card-3 {
+   padding: 90px;
+}
+
+h1 {
+    font-size: 14px;
+    color: var(--clr-neutral-400);
+    LETTER-SPACING: 2PX;
+    padding-bottom: 7px;
+    padding-top: 20px;
+}
+
+h2 {
+    font-size: 14px;
+    color: var(--clr-neutral-400);
+    LETTER-SPACING: 2PX;
+    padding-bottom: 7px;
+    padding-top: 20px;
+}
+
+button{
+    font-size: 18px;
+    height: 50px;
+    color: var(--clr-neutral-200);
+    border-radius: 6px;
+    background: var(--clr-neutral-400);
+    cursor: pointer;
+    padding: 12px 159px 12px 159px;
+}
+
+@media screen and (max-width:767px){
+    .container {
+        flex-direction: column;
+    }
+
+    .head-img {
+        width: 100%;
+        min-height: 30vh;
+        background-image: url('./images/bg-main-mobile.png');
+    }
+
+    .main-dextop {
+        z-index: 100;
+    }
+
+    .card-3 {
+        margin-top: 6rem;
+    }
+}

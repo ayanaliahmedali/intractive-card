@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Interactive card details form</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="head-img">
+      <img class="main-dextop" src="./images/bg-main-desktop.png" alt="">
+    </div>
+    <div class="card-1">
+      <img src="./images/card-logo.svg" alt="">
+      <p class="1">0000 0000 0000 0000</p>
+      <div class="all">
+        <p class="header-para">Jane Appleseed</p>
+        <span class="2">00/00</span>
+      </div>
+    </div>
+    <div class="card-2">
+      <img src="./images/bg-card-back.png" alt="" />
+      <span id="3">000</span>
+    </div>
+    <div class="card-3">
+      <form>
+        <div class="card-4">
+          <h1>CARDHOLDER NAME</h1>
+          <input type="text" name="search" value placeholder="e.g. Jane Appleseed">
+          <h2>CARD NUMBER</h2>
+          <input type="text" name="search" value placeholder="e.g. 1234 5678 9123 0000">
+        </div>
+        <div class="footer-aria">
+          <h1>EXP. DATE (MM/YY)</h1>
+          <input class="input-cover" type="text" name="search" value placeholder="MM">
+          <input  class="input-cover" type="text" name="search" value placeholder="YY">
+          <h2>CVC</h2>
+          <input type="text" name="search" value placeholder="e.g. 123">
+        </div>
+        <button class="green-btn">Confirm</button>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>
